@@ -19,8 +19,8 @@
 
         .container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column; /* Change flex direction to column for vertical alignment */
+            align-items: center; /* Center buttons horizontally */
             margin-top: 50px;
         }
 
@@ -36,9 +36,9 @@
             margin: 10px;
             cursor: pointer;
             border-radius: 12px;
-            width: 150px;
+            width: 200px; /* Adjust width if needed */
             height: 60px; /* Adjust height if needed */
-            line-height: 30px; /* Adjust to center vertically */
+            line-height: 30px; /* Adjust to center text vertically */
         }
 
         .button:hover {
@@ -54,10 +54,10 @@
 </head>
 <body>
 
-    <a href="https://www.mbmc.gov.in/"><img src="logo.png" alt="Logo" > </a>
-    <a href="https://www.mbmc.gov.in/"><img src="welcome.png" alt="Logo" > </a>
+    <a href="https://www.mbmc.gov.in/"><img src="logo.png" alt="Logo"> </a>
+    <a href="https://www.mbmc.gov.in/"><img src="welcome.png" alt="Welcome"></a>
 
-    <h1> School Data Distribution</h1>
+    <h1>School Data Distribution</h1>
 
     <div class="container">
         <a href="school_contact.html" class="button">Schools List & Info</a>
@@ -65,8 +65,6 @@
         <a href="dash2.html" class="button">Student Data & Info</a>
         <a href="extra1.html" class="button">School Amenities</a>
     </div>
-
-    
 
 </body>
 </html>
