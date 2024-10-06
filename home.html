@@ -25,7 +25,7 @@
         }
 
         .button {
-            background-color: #4CAF50; /* Green */
+            background-color: #007bff;
             border: none;
             color: white;
             padding: 15px 30px;
@@ -35,26 +35,38 @@
             font-size: 20px;
             margin: 10px;
             cursor: pointer;
-            border-radius: 8px;
+            border-radius: 12px;
             width: 150px;
+            height: 60px; /* Adjust height if needed */
+            line-height: 30px; /* Adjust to center vertically */
         }
 
         .button:hover {
-            background-color: #45a049;
+            background-color: #0151a6;
+        }
+
+        .img {
+            width: 200px;
+            height: 280px;
+            object-fit: fill;
         }
     </style>
 </head>
 <body>
 
-    <h1>Homepage</h1>
+    <a href="https://www.mbmc.gov.in/"><img src="logo.png" alt="Logo" > </a>
+    <a href="https://www.mbmc.gov.in/"><img src="welcome.png" alt="Logo" > </a>
+
+    <h1> School Data Distribution</h1>
+
     <div class="container">
+        <a href="school_contact.html" class="button">Schools List & Info</a>
         <a href="dash1.html" class="button">Student Distribution</a>
-        <a href="dash2.html" class="button">Student Data</a>
+        <a href="dash2.html" class="button">Student Data & Info</a>
         <a href="extra1.html" class="button">School Amenities</a>
-        <a href="Extra2.html" class="button">Amenities + Contact</a>
-        <a href="FinalDashBoard.html" class="button">Final Dash</a>
-        <a href="school_contact.html" class="button">Contact</a>
     </div>
+
+    
 
 </body>
 </html>
